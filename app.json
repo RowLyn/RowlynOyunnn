@@ -11,12 +11,8 @@
     "MONGO_URI": {
       "description": "A MongoDB URI.",
       "required": true
-    },
-    "SUDO_USERS": {
-      "description": "user id.",
-      "required": true
-   },
-  }
+    }
+  },
   "buildpacks": [
     {
       "url": "heroku/python"
